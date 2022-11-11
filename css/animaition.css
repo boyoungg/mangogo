@@ -1,0 +1,124 @@
+/* #MangoAni{position: relative; bottom: 0; z-index: 99;}
+#animation-back{display: none; transition: 2s; height: 800px; position: fixed; bottom: -10px; left: -30px; opacity: 0;
+transform: ;} */
+
+/* span animaition */
+.span_animation{background-color: #ffdb58; padding: 0 10px; border-radius: 50px;}
+
+
+/*main animation*/
+.animationSection{width: 100vw; height: 100vh;}
+#section-back-01{background: linear-gradient( to bottom, #FFF5D1 20%, #ffe8aa);}
+#section-back-02{background: linear-gradient( to bottom, #ffe8aa 20%, #E8FAFF);}
+#section-back-03{background: linear-gradient( to bottom, #E8FAFF 20%, #FFF5D1);}
+#ani-back{position: fixed; bottom: -5px; left: 0; }
+#ani-back img{height: 150px;}
+/* #ani-cha{position: fixed;bottom: 10px; left: 0;} */
+/* #ani-cha img{height: 150px;} */
+#ani-bottom{position: fixed;bottom: -10px; left: 5px; }
+#ani-bottom img{height: 40px;}
+.target{width: 100px;height: 100px;}
+#ani-text img{width: 300px;}
+#ani-text{position: fixed; bottom: 180px; left: 0; display: none;}
+
+
+#ani-cha {
+    position:fixed;
+    bottom: -10px; left: 0;
+    width:150px;
+    height:150px;
+    background: url('../img/mainGif.png') no-repeat;
+    background-size:cover;
+}
+
+#ani-cha.move{
+    animation: run 1.5s infinite steps(6);
+}
+
+@keyframes run {
+    0%{}
+    100% {
+        background-position: -900px 0;
+ 
+    }
+}
+
+@keyframes app {
+    0%{bottom: -1%;}
+    50% {
+        bottom: 0%;
+ 
+    }
+    100%{bottom: -1%;}
+}
+
+/*캐릭터 애니메이션*/
+@keyframes first {
+    0%{opacity: 0; transform: translateX(-100px);}
+    40%{opacity: 1;}
+    100% {
+        background-position: -3120px 0;
+        transform: translateX(20px);
+ 
+    }
+}
+
+.first-gif{
+    width:240px;
+    height:240px;
+    background: url('../img/gif.png') no-repeat;
+    background-size: cover;
+    animation-fill-mode: forwards;
+    animation: first 2s 1 steps(13);
+ 
+}
+
+.second-gif{
+    width:240px;
+    height:240px;
+    background: url('../img/gif_1.png') no-repeat;
+    background-size: cover;
+    animation-fill-mode: forwards;
+    animation: first 2s 1 steps(13);
+}
+
+.third_gif{
+    width:240px;
+    height:240px;
+    background: url('../img/gif_2.png') no-repeat;
+    background-size: cover;
+    animation-fill-mode: forwards;
+    animation: first 2s 1 steps(13);
+}
+
+.four_gif{
+    width:240px;
+    height:240px;
+    background: url('../img/gif_3.png') no-repeat;
+    background-size: cover;
+    animation-fill-mode: forwards;
+    animation: first 2s 1 steps(13);
+}
+
+.five_gif{
+    width:240px;
+    height:240px;
+    background: url('../img/gif_4.png') no-repeat;
+    background-size: cover;
+    animation-fill-mode: forwards;
+    animation: first 2s 1 steps(13);
+}
+
+
+
+/*overview*/
+/* .a-ch.display{} */
+
+/*service backround animation*/
+.circleY {width: 50px; height: 50px; background-color: #ffdb58; border-radius: 1000px; position: relative; top: 0; right: 504px; z-index: -99;  transition:all 1s ease-in-out;}
+
+.circleY.yellow-circle {width: 600px; height: 600px; background-color: #ffdb58;  position: absolute; top: 550px; right: 304px; z-index: -99; transition:all 1s ease-in-out;}
+
+.circleY.second-circle { width: 1660px; height: 800px; position: absolute; top: 1700px; right: 120px; z-index: -99; border-radius: 70px; background-color: #ffe37f;  transition:all 1s ease-in-out;}
+
+.circleY.third-circle { width: 1800px; height: 550px; position: absolute; top: 3417px; right: 0; z-index: -99; border-radius: 1000px 0 0 1000px; background-color: #f5f5f5; transition:all 1s ease-in-out;}
