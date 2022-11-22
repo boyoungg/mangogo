@@ -1,0 +1,45 @@
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+@font-face {
+    font-family: 'TmoneyRoundWindExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* container */
+.container1{max-width: 100vw; background-color: white;}
+.inner1{width: 90vw; margin: 0 auto;  }
+.design-inner1{width: 75vw;  margin: 0 auto; }
+
+
+/*section wrap*/
+.sectionWrap{width: 100vw; height: 100vh; }
+.contentsSection{width:100vw; height: 100%; }
+
+/*UI STYLE - TITLE*/
+.section-title{font-family: 'pretendard'; color: #ff9838; border: 0.1vw #ff9838 solid; padding: 0.3vw 1vw; display: inline-block; border-radius: 999px; font-size: 1vw; font-weight: 400; margin-top: 4vw;}
+.section-BK-title{font-family: 'pretendard'; color: #262626; border: 1px #262626 solid; padding: 0.3vw 1vw; display: inline-block; border-radius: 999px;; font-size: 1vw; font-weight: 400; margin-top: 4vw;}
+
+.main-title{font-family: 'Tmoney RoundWind'; color: #262626; font-size: 2.2vw; text-align: center; line-height: 3.5vw; font-weight: bold;}
+.sub-title{font-family: 'Tmoney RoundWind'; color: #ff8a00; font-size: 2vw; font-weight: bold;}
+
+.main-text{font-family: 'pretendard'; color: #555; font-size: 1vw; font-weight: 500; line-height: 1.5vw;}
+.sub-text{font-family: 'pretendard'; color: #ffad72; font-size: 1vw; font-weight: 500; margin-right: 50px;}
+
+.textSection{display: flex; margin-top: 20px;}
+
+/* service text */
+.service-sm-text{font-family: 'pretendard'; color: #262626; font-size: 16px; font-weight: 500; line-height: 35px;}
+.servicetitle{font-family: 'pretendard'; color: #ff9838; background-color: white; padding: 3px 10px; border-radius: 50px; font-size: 14px; font-weight: 400; text-align: center; display: inline-block;}
+
+
+/* SCROLL */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background-color: #f0f0f0; }
+::-webkit-scrollbar-thumb { 
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #ffb876, #ffad72); 
+}
+::-webkit-scrollbar-button { display: none; }
